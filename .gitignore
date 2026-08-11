@@ -1,0 +1,79 @@
+# ==================== PlatformIO（ESP32 / STM32） ====================
+.pio/
+.pioenvs/
+.piolibdeps/
+.pioide/
+.pioinit
+
+# ==================== ESP-IDF（ESP32） ====================
+build/
+sdkconfig
+sdkconfig.old
+dependencies.lock
+managed_components/
+
+# ==================== Arduino IDE ====================
+build/
+*.elf
+*.hex
+*.map
+
+# ==================== STM32CubeIDE ====================
+Debug/
+Release/
+.settings/
+*.launch
+*.gdbhistory
+
+# ==================== Keil MDK（STM32） ====================
+Objects/
+Listings/
+*.uvguix.*
+*.uvoptx
+*.bak
+JLinkLog.txt
+*.crf
+*.d
+*.o
+*.axf
+*.dep
+
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+.env
+.env.*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# ==================== 系统文件 ====================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==================== IDE / 编辑器 ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.workspace
+
+# ==================== 日志 / 临时文件 ====================
+*.log
+logs/
+tmp/
