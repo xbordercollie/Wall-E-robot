@@ -1,0 +1,2 @@
+1.使用Arduino IDE烧录前请将font文件夹放入arduino根目录中的libraries（也就是库）文件夹内。
+
